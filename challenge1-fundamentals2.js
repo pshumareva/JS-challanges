@@ -12,3 +12,5 @@ const checkWinner = (points1 , points2) => {
         console.log(`Koalas win (${points1} vs ${points2})`)
     }
 }
+
+console.log(checkWinner(avgDolphins, avgKoalas))
