@@ -31,3 +31,11 @@ for (let i = 0; i < jonas.length; i++) {
 for (let i = jonas.length - 1; i >= 0; i--) {
   console.log("backwards", jonas[i]);
 }
+
+//Nested loops
+for (let exercise = 1; exercise <= 3; exercise++){
+  console.log(`Starting exercise ${exercise}`)
+  for (let rep= 1; rep <= 5; rep++){
+    console.log(`Lifting weights repetition ${rep} `)
+  }
+}
