@@ -22,8 +22,12 @@ for (let i = 0; i < jonas.length; i++) {
   console.log(jonas[i]);
 }
 
-
 for (let i = 0; i < jonas.length; i++) {
-    if (typeof jonas[i] === "number") break; //when it reaches a number it stops
-    console.log(jonas[i]);
-  }
+  if (typeof jonas[i] === "number") break; //when it reaches a number it stops
+  console.log(jonas[i]);
+}
+
+// Looping backwards
+for (let i = jonas.length - 1; i >= 0; i--) {
+  console.log("backwards", jonas[i]);
+}
